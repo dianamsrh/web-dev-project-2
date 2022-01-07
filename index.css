@@ -1,0 +1,261 @@
+body{
+    width: 100vw;
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-element{
+  display: flex;
+}
+.left{
+  width: 50vw;
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+}
+.right{
+  width: 50vw;
+  height: 100vmin;
+}
+.logo{
+  padding-top: 2em;
+  padding-left: 2em;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9%;
+}
+.title h1{
+  width: 4em;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 0;
+  color: #3E4543;
+  letter-spacing: 2.5px;
+}
+.title p{
+  width: 11em;
+  font-size: 2em;
+  text-align: center;
+  color: #3E4543;
+}
+.button-style{
+  width: 20em;
+  height: 3.5em;
+  margin-top: 2em;
+  border-radius: 2em;
+  background-color:#C9DBDA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-style h4{
+  margin: 0;
+  color: #3E4543;
+}
+#btn:hover {
+  color: white;
+  background: #5F6F6E;
+}
+
+#btn:hover #circle {
+  height: 50px;
+  width: 150px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
+.hero{
+  width: 50vw;
+  height: 100%;
+}
+
+main{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-section{
+    margin-bottom: 5em;
+}
+.title-section{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.title-page{
+
+    width: 18em;
+    height: 1.5em;
+    padding: 0.5em;
+    margin-top: -1.5em;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E4543;
+}
+hr{
+    margin: 0;
+    margin-top: 3em;
+    width: 100%;
+    height: 0.5em;
+    background-color: #3E4543; 
+    border-width: 0px;
+}
+h5{
+    margin: 0;
+    color: WHITE;
+}
+
+
+/* product */
+.product-section{
+    margin-bottom: 4.5em;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+}
+.product-item{
+    margin:0px;
+    width: 22%;
+}
+.product-img{
+    width: 100%;
+    height:100%;
+    margin:0px;
+}
+.product-name{
+    margin-top: 0;
+    height: 4em;
+    font-size: 0.8em;
+    background-color: #C9DBDA;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.product-detail-name{
+    margin: 0;
+    width: 50%;
+    color: #3E4543;
+    font-family: lato;
+    letter-spacing: 1px;
+}
+
+/* Review */
+.pfc{
+    display: flex;
+    padding: 2.5em;
+    justify-content: space-between;
+}
+.profile-picture{
+    width: 4em;
+    height: 4em;
+}
+.pfc-items{
+    width: 18em;
+    height: 24em;
+    padding: 2em;
+    padding-top: 3em;
+    background-color: #F3F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.pfc-items, p{
+    text-align: justify;
+}
+.user-name{
+    font-family: lato;
+}
+.user-job{
+    font-family: lato;
+    color: #6D6868;
+}
+.material-icons{
+    color: #6D6868;
+}
+
+.cpc{
+    display: flex;
+    justify-content: space-between;
+}
+.cpc-items{
+    width: 26em;
+    height: 9em;
+    background-color: #F3F2F2;
+    display: flex;
+    
+}
+.c-picture{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-review{
+    padding:1.5em;
+    width: 75%;
+    font-size: 0.8em;
+}
+.c-review p{
+    margin-top: 5px;
+    text-align: justify;
+}
+.c-profile-picture{
+    width: 3em;
+    height: 3em;
+}
+.cpc-user{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.cpc-user-timepost{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6D6868;
+}
+
+.copyright{
+    width: 100%;
+    height: 2.5em;
+    background-color: #3E4543;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.footer-list{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    margin: 0;
+    margin-bottom: 1em;
+}
+.social{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
